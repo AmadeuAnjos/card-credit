@@ -12,25 +12,45 @@
 <body>
   <section>
     <div class="container">
-      <div class="lado-esquerdo">
+      <div class="image-superior">
         <img src="./images/bg-main-mobile.png" alt="">
+      </div>
+      <div class="card-back">
         <img src="./images/bg-card-back.png" alt="">
+      </div>
+      <div class="card-front">
+        <img id="favicon" src="./images/favicon-32x32.png" alt="">
+        <div class="ball"></div>
         <img src="./images/bg-card-front.png" alt="">
+        <p>0000&nbsp; 0000&nbsp; 0000&nbsp; 0000</p>
+        <h6>JANE APPLESEED</h6>
+        <h6 id="validity">00/00</h6>
       </div>
     </div>
   </section>
   <section>
-    <form action="">
-      <label for="">CARDHOLDER NAME</label>
-      <input type="text" placeholder="e.g Jane Anjos">
-      <label for="">CARD NUMBER</label>
-      <input type="text" placeholder="e.g 1234 5678 9123 0000">
-      <label for="">EXP. DATE (MM/YY)</label>
-      <input type="text" placeholder="MM">
-      <input type="text" placeholder="YY">
-      <label for="">CVC</label>
-      <input type="text" placeholder="e.g. 123">
-    </form>
+    <main>
+      <form action="">
+        <label for="">CARDHOLDER NAME</label><br>
+        <input type="text" placeholder="&nbsp; &nbsp; e.g. Jane Appleseed"><br>
+        <label for="">CARD NUMBER</label><br>
+        <input type="text" placeholder="&nbsp; &nbsp; e.g. 1234 5678 9123 0000"><br>
+        <div class="input-grid">
+          <div class="date">
+            <label for="">EXP. DATE (MM/YY)</label><br>
+            <input id="month" type="text" placeholder="&nbsp;&nbsp;MM">
+            <input id="year" type="text" placeholder="&nbsp;&nbsp;YY">
+          </div>
+          <div class="code">
+            <label for="">CVC</label><br>
+            <input id="code-cvc" type="text" placeholder="&nbsp;&nbsp;e.g. 123">
+          </div>
+        </div>
+        <div class="botao">
+          <button>Confirm</button>
+        </div>
+      </form>
+    </main>
   </section>
 </body>
 
