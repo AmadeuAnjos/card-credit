@@ -79,6 +79,7 @@ body {
 
 .back_card {
     position: relative;
+    right: 10px;
 }
 
 .error {
