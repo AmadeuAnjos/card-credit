@@ -200,6 +200,7 @@ input:focus {
 }
 
 form button {
+    margin-top: 30px;
     grid-column: 2 span;
     font-size: 18px;
     height: 50px;
@@ -265,6 +266,10 @@ form button {
 @media screen and (max-width:767px) {
     .container {
         flex-direction: column;
+    }
+
+    .front_card {
+        left: 10%;
     }
 
     .front_card .card_container img,
