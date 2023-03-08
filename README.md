@@ -1,7 +1,5 @@
 # Aplicativo para cadastrar cartão de crédito
 
-![Design preview for the Interactive card details form coding challenge](./design/desktop-preview.jpg)
-
 ## Seja bem-vindo(a) 👋
 
 ![image](https://user-images.githubusercontent.com/53497771/223868890-3eff3516-aaf8-4ebf-b279-0f523cad4679.png)
