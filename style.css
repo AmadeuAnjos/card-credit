@@ -243,8 +243,12 @@ form button {
 
 @media screen and (max-width:1110px) {
 
+    .front_card {
+        margin-left: 5%;
+    }
+
     .right_section form {
-        margin-left: 50px;
+        margin-left: 100px;
     }
 }
 
@@ -297,7 +301,7 @@ form button {
 
     .cards {
         flex-direction: column-reverse;
-        left: 61%;
+        left: 57%;
         top: 60%;
         gap: 0;
     }
@@ -312,6 +316,13 @@ form button {
 
     .right_section {
         margin-top: 6rem;
+    }
+
+    .right_section form {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
 }
