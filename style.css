@@ -13,6 +13,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -49,6 +50,7 @@ body {
 }
 
 .front_card {
+    left: 10%;
     position: relative;
     transform: translateX(-100px);
 }
@@ -62,7 +64,7 @@ body {
 #number {
     position: absolute;
     color: var(--White);
-    bottom: 4.2rem;
+    bottom: 4.1rem;
     left: 1.4rem;
     letter-spacing: 2px;
 }
@@ -99,7 +101,7 @@ body {
 #cvc {
     position: absolute;
     right: 3.5rem;
-    top: 7rem;
+    top: 6.8rem;
     color: var(--Light-grayish-violet);
 }
 
@@ -238,6 +240,14 @@ form button {
     background-color: var(--Very-dark-violet);
     cursor: pointer;
 }
+
+@media screen and (max-width:1110px) {
+
+    .right_section form {
+        margin-left: 50px;
+    }
+}
+
 
 @media screen and (max-width:1023px) {
 
